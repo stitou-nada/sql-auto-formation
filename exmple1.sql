@@ -13,4 +13,14 @@ INSERT INTO `stagiaire` (`id`, `nom`) VALUES ('1','nada');
 SELECT * FROM `stagiaire`
 SELECT nom FROM `stagiare`
 
+-- cree deux tableau
+USE student;
+CREATE TABLE admine (
+ id int PRIMARY KEY ,
+ nom varchar (250)
+);
+CREATE TABLE utilisateur (
+ id int PRIMARY KEY ,
+ nom varchar (250)
+);
 
